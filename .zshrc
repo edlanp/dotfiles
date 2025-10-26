@@ -23,3 +23,9 @@ if [ -f "$(brew --prefix)/opt/fzf/shell/completion.zsh" ]; then
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# Created by `pipx` on 2025-10-14 00:27:52
+export PATH="$PATH:/Users/edlanp/.local/bin"
